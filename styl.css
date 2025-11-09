@@ -1,0 +1,72 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pasek {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.tekstpasek {
+    display: inline-block;
+    padding-left: 100%;
+    animation: przesunpasek 22s linear infinite;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tekstpasek span {
+    display: inline-block;
+    margin-right: 80px;
+}
+@keyframes przesunpasek {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.duzezdjecia {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.duzezdjecia > div {
+    width: 100%;
+    position: relative;
+}
+.duzezdjecia img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.przycisk {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: yellow;
+    color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.przycisk :hover {
+    background-color: #333;
+    color: yellow;
+}
+

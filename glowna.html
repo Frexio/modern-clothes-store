@@ -11,19 +11,23 @@
 </head>
 <body>
     <div class="dostawa">
-        <p>Darmowa dostawa od 300PLN</p>
+        <p id="dostawa">DARMOWA DOSTAWA OD 300PLN</p>
     </div>
     <div class="menu">
+        <div class="lewomenu">
         <a href="glowna.html">Home</a>
         <a href="koszulki.html">Koszulki</a>
-        <a href="bluzy.html">Bluzy</a>
+
         <a href="rozmiary.html">Tabele rozmiarow</a>
         <a href="kontakt.html">Kontakt</a>
-        <img src="assets/logo.png" alt="Presige shop">
-        <i id="wyszukaj" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+        <img class="logo" src="assets/zdjecia/logo.png" alt="Presige shop" height="50px" >
+        <div class="prawomenu">
+        <i id="wyszukaj" class="fa-solid fa-magnifying-glass" ></i>
         <i id="user" class="fa-regular fa-user"></i>
         <i id="koszyk" class="fa-solid fa-cart-shopping"></i>
     </div>
+</div>
     <div class="pasek">
         <div class="tekstpasek">
            <span>ZAPISZ SIE NA NEWSLETTER ZYSKA 10% ZNIZKI </span> 
@@ -40,31 +44,41 @@
     </div>
         <img src="assets/zdjecia/glowna3.png" alt="zdjecie1" >
     </div>
+ 
     <section class="bestsellery">
-        <button class="strzalka lewo" onclick="przesunzdj(-1)">&#10094;</button>
+        <a href="koszulki.html"><button class="przycisk">ZOBACZ WIECEJ</button></a>
+        <div class="slider-window">
+        <h1>Bestsellery</h1>
         <div class="slider" id="slider">
             <div class="slide">
+                <div class="img-wrapper">
                 <img src="/assets/zdjecia/b1_1.png" alt="b1">
                 <img src="/assets/zdjecia/b1_2.png" alt="b2" class="hover">
                 <img src="/assets/zdjecia/b1_3.png" alt="b3">
             </div>
+            </div>
             <div class="slide">
+                <div class="img-wrapper">
                 <img src="/assets/zdjecia/b2_1.png" alt="b1">
                 <img src="/assets/zdjecia/b2_2.png" alt="b2" class="hover">
                 <img src="/assets/zdjecia/b2_3.png" alt="b3">
             </div>
+        </div>
             <div class="slide">
+                <div class="img-wrapper">
                 <img src="/assets/zdjecia/b3_1.png" alt="b1">
                 <img src="/assets/zdjecia/b3_2.png" alt="b2" class="hover">
                 <img src="/assets/zdjecia/b3_3.png" alt="b3">
             </div>
+        </div>
             <div class="slide">
+                <div class="img-wrapper">
                 <img src="/assets/zdjecia/b4_1.png" alt="b1">
                 <img src="/assets/zdjecia/b4_2.png" alt="b2" class="hover">
                 <img src="/assets/zdjecia/b4_3.png" alt="b3">
             </div>
         </div>
-        <button class="strzalka prawo" onclick="przesunzdj(1)">&#10095;</button>
+        </div>
     </section>
     <script src="assets/js/main.js"></script>
 </div>

@@ -18,6 +18,27 @@ body {
     margin-bottom: 20px;
 }
 
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-btn:hover {
+    background: #bdbdbd;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.back-btn {
+    background: #e0e0e0;
+    color: black;
+    margin-top: 10px;
+}
+
 .auth-container input {
     width: 100%;
     padding: 12px;
@@ -40,25 +61,6 @@ body {
 
 .auth-container button:hover {
     background: #444;
-}
-
-.back-btn {
-    background: #e0e0e0;
-    color: black;
-    margin-top: 10px;
-}
-
-.back-btn:hover {
-    background: #bdbdbd;
-}
-
-a {
-    text-decoration: none;
-    color: #0066cc;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .error {

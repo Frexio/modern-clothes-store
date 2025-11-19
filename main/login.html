@@ -4,16 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="auth.css">
+<script src="auth.js" defer></script>
     <title>Logowanie</title>
 </head>
 <body>
     <div class="auth-container">
         <h2>Logowanie</h2>
-        <form action="login.php" method="post" onsubmit="return validateLogin()">
+        <form action="php/login.php" method="post" onsubmit="return validateLogin()">
             <input type="email" id="email" name="email" placeholder="Email">
             <div id="loginError" class="error"></div>
             <input type="password" id="password" name="password" placeholder="Hasło">
             <button type="submit">Zaloguj</button>
+            <button type="button" class="back-btn" onclick="window.location.href='register.html'">
+                Zarejestruj się
+            </button>
             <a href="zmienhaslo.html">Zapomniałeś hasła?</a>
             <button type="button" class="back-btn" onclick="goBack()">Powrót</button>
     </form>

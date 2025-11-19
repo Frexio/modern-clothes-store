@@ -169,4 +169,58 @@ i {
     opacity: 1;
 }
 
+.btn{
+    float: right;
+    background-color: yellow;
+    color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+
+.btn:hover {
+    background-color: #333;
+    color: yellow;
+}
+
+.znizkalewo{
+    display: flex;
+    width: 40%;
+    float: left;
+}
+.znizkaprawo {
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.znizka {
+    display: flex;
+    margin-top: 2%;
+}
+
+.znizkaprawo > p {
+    font-weight: bold;
+    font-size: 28px;
+}
+.znizkalewo > img {
+    border-radius: 40px;
+
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: -1%;
+    color: grey;
+
+    
+}
+
+.menu i {
+    text-decoration: none;
+    color: black;
+}

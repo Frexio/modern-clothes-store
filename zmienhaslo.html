@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zmiana hasła</title>
+    <link rel="stylesheet" href="auth.css">
+    <script src="auth.js" defer></script>
+</head>
+<body>
+
+<div class="auth-container">
+    <h2>Reset hasła</h2>
+
+    <form action="reset_password.php" method="POST" onsubmit="return validateReset()">
+        <input type="email" id="resetEmail" name="email" placeholder="Email">
+        <div id="resetError" class="error"></div>
+
+        <button type="submit">Wyślij link resetujący</button>
+
+        <button type="button" class="back-btn" onclick="goBack()">Powrót</button>
+    </form>
+</div>
+
+</body>
+</html>

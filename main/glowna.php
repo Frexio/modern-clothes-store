@@ -44,7 +44,7 @@ if ($isLoggedIn) {
     <div class="menu">
     <div class="lewomenu">
         <a href="glowna.php">Home</a>
-        <a href="koszulki.html">Koszulki</a>
+        <a href="koszulki.php">Koszulki</a>
         <a href="rozmiary.html">Tabele rozmiarow</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
@@ -78,7 +78,7 @@ if ($isLoggedIn) {
         <img src="../assets/zdjecia/glowna1.png" alt="zdjecie1">
         <div class="zdjprzycisk">
             <img src="../assets/zdjecia/glowna2.png" alt="zdjecie2">
-            <a href="koszulki.html"><button class="przycisk">ZOBACZ WIECEJ</button></a>
+            <a href="koszulki.php"><button class="przycisk">ZOBACZ WIECEJ</button></a>
         </div>
         <img src="../assets/zdjecia/glowna3.png" alt="zdjecie3">
     </div>

@@ -44,7 +44,7 @@ if ($isLoggedIn) {
     <div class="menu">
     <div class="lewomenu">
         <a href="glowna.php">Home</a>
-        <a href="koszulki.php">Koszulki</a>
+        <a href="admin/koszulki.php">Koszulki</a>
         <a href="rozmiary.html">Tabele rozmiarow</a>
         <a href="kontakt.html">Kontakt</a>
     </div>
